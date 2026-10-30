@@ -1,4 +1,6 @@
-Trying to make my first web with help of Claude, firsts steps are hard but i'll make it work.
-It seems that now is working, now I will update the index every time I am done with the changes, I'll write more later
-
-Created another index.html with more info and interactive actions so I am deleting the older one to use the new version
+# Hola soy Alonso y esta es mi primera creacion en GitHub para probar como funciona.
+## Esta es mi primera Web, con ayuda de Claude
+Esta pagina la he creado con ayuda de Claude para las partes interactivas y diseño, puedo crear la parte del texto, titulos etc. Pero la parte interactiva aun no se hacerla, por eso hago esta prueba, la idea era crear una Web que hablara un poco de mi, sobre lo que estudio y proyectos que he hecho como este, la mayor complicacion fue entender GitHub. Yo queria tener una "pagina web propia" gratuita, que no sea un servicio como Netlify u otras que funcionan con usos limitados. La mayor complicacion fue entender como configurar y usar el GitHub. La primera configuracion fue la seccion Page de Settings, eso fue facil, el problema vino cuando yo queria modificar el index.
+## El problema del index.html
+Como norma general en cualquier sitio si tu quieres cambiar un archivo por otro que tenga el mismo nombre se remplaza, en GitHub no pasa eso, lo que tienes que hacer es eliminar el archivo anterior y meter el nuevo, es logico pero yo no queria ir perdiendo los cambios que hago para ver los avances y como iba aprendiendo. De esta manera descubri que se pueden añadir los cambios que haces y la descripcion y queda guardado con el dia y hora, pero aun asi no acaba de resolver mi problema, que queria tener los archivos antiguos guardados, asi que me puse a investigar y me di cuenta que puedes crear como una especie de carpetas y dentro de ellas guardar los archivos que quieras, asi arregle el problema.
+## Funcionamiento del readme

@@ -7,8 +7,8 @@ Como norma general en cualquier sitio si tu quieres cambiar un archivo por otro 
 Lo mas importante al hacer una pagina o simplemente hacer codigo es entender y saber que estas haciendo para saber explicarlo y que otras personas que lo vean sepan usarlo o modificarlo como quieran, el readme aunque sea algo que nadie lea y pasen de el totalmente es algo muy importante, es muy util si quieres explicar un error y como solucionarlo o explicar una linea de codigo que sea complicada, aunque tambien te sirve a ti mismo para saber lo que estas haciendo y como replicarlo. Pues por todo esto y mas cosas me vi en la obligacion de aprender a usar un poco el readme, no es como abrir un Word y ponerte a poner texto como un loco, hay unas pautas y trucos, por ejemplo para separar por titulos se pone "#" para el mas grande y principal y "##" para los subtitulos, asi se puede separar comodamente. Ademas de esto tambien hay que saber que tienes que decir y explicar, aqui solo importa como hiciste las cosas y si se conoce de algun error y su solucion. Yo no le daba importancia a esto hasta que empece a verlo y me di cuenta de que es realmente util.
 ## Errores 
 Hablando de errores, revisando el index.html he visto dos cosas que podria arreglar, la pagina esta pensada para que dependiendo del tamaño de la pantalla y del dispositivo varie, para eso hice la regla: 
-64:    .consola code {
-65:    display: block; margin-top: .35rem; min-height: 1.5em;
-66:    font: 500 1.05rem/1.5 "IBM Plex Mono", ui-monospace, monospace;
+* 1 64:    .consola code {
+* 2 65:    display: block; margin-top: .35rem; min-height: 1.5em;
+* 3 66:    font: 500 1.05rem/1.5 "IBM Plex Mono", ui-monospace, monospace;
 Pero esta regla es pisada por otra que puse justo antes:
-61:    .consola code { font-size: clamp(1.05rem, 2vw, 1.4rem); }
+* 1 61:    .consola code { font-size: clamp(1.05rem, 2vw, 1.4rem); }

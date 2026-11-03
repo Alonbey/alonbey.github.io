@@ -15,3 +15,7 @@ Pero esta regla ultima regla es pisada por otra que puse justo antes:
 * 61:    .consola code { font-size: clamp(1.05rem, 2vw, 1.4rem); }
 
 La solucion fue borrar la linea 61 entera, y si quisiera que aparezca en pantallas grandes cambiar en la linea 66 1.05rem por clamp(1.05.rem, 2vw, 1.4rem) y borrar la 61. Entonces de una u otra quedaria igual
+
+Basicamente lo que hace clamp es adaptar el ancho de la pantalla pero sin pasarse por arriba ni por abajo, por eso lleva 3 valores, el mínimo, el ídeal y el máximo, en este orden. En mi caso el 1.05rem es lo mas pequeño que puede ser (1rem suelen ser 16px), 2vw es el tamaño que intenta tener, el 2% del ancho de la ventana (vw = viewport width), es decir si la ventana son 1000px pone 20px y 1.4re es lo mas grande que puede llegar a ser (unos 22px).
+
+Explicado todo esto ahora al cambiarlo ya se arregla todo, tambien tuve un error que me olvide de cambiar al nombre a una cosa y a veces fallaba pero ya lo modifique y va perfecto. 

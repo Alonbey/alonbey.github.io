@@ -10,5 +10,6 @@ Hablando de errores, revisando el index.html he visto dos cosas que podria arreg
 * 64:    .consola code {
 * 65:    display: block; margin-top: .35rem; min-height: 1.5em;
 * 66:    font: 500 1.05rem/1.5 "IBM Plex Mono", ui-monospace, monospace;
-Pero esta regla es pisada por otra que puse justo antes:
+  
+Pero esta regla ultima regla es pisada por otra que puse justo antes:
 * 61:    .consola code { font-size: clamp(1.05rem, 2vw, 1.4rem); }

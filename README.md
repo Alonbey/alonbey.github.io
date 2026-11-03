@@ -13,3 +13,5 @@ Hablando de errores, revisando el index.html he visto dos cosas que podria arreg
   
 Pero esta regla ultima regla es pisada por otra que puse justo antes:
 * 61:    .consola code { font-size: clamp(1.05rem, 2vw, 1.4rem); }
+
+La solucion fue borrar la linea 61 entera, y si quisiera que aparezca en pantallas grandes cambiar en la linea 66 1.05rem por clamp(1.05.rem, 2vw, 1.4rem) y borrar la 61. Entonces de una u otra quedaria igual
